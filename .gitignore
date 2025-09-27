@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Config files with sensitive data
+config/firebase_config.json
+*.env
+
+# Model files (if large)
+data/models/*.h5
+data/models/*.pkl
+
+# Logs
+*.log
+
+# Arduino
+*.hex
+*.elf
